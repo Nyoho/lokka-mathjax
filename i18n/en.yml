@@ -1,0 +1,6 @@
+en:
+  mathjax:
+    title: MathJax
+    setting: Setting
+    banner: The Lokka MathJax plugin gives you a function of <a href="http://www.mathjax.org/">MathJax</a> on your pages. You can use $$...$$ and \[...\] for displayed mathematics, and \(...\) for in-line mathematics. 
+    use_dollar_message: Use dollar symbols $...$ as in-line math delimiters. (If you use dollars normally, don't use this)

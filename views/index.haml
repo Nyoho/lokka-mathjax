@@ -1,0 +1,9 @@
+%h2= t('mathjax.title') +' '+ t('mathjax.setting')
+%p= t('mathjax.banner')
+%form{:action => '/admin/plugins/mathjax', :method => 'post'}
+  %input{:type => 'hidden', :name => '_method', :value => 'put'}
+  .field
+    %input{:type => 'checkbox', :id => 'use_dollar', :name => 'mathjax_use_dollar', :checked => Option.mathjax_use_dollar ? true : nil }
+    %label{:for => 'mathjax_use_dollar'}= t('mathjax.use_dollar_message')
+  .field
+    %input{:type => 'submit', :value => t('edit')}

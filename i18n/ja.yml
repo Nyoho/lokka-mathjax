@@ -1,0 +1,6 @@
+ja:
+  mathjax:
+    title: MathJax
+    setting: 設定
+    banner: この MathJax プラグインを使えば、各ページで <a href="http://www.mathjax.org/">MathJax</a> が使えるようになります。 $$...$$ と \[...\] をディスプレイモードの数式に、\(...\) をインラインモードの数式の区切り文字として使用できます。
+    use_dollar_message: $...$ もインライン数式用の区切り記号として使用する。(「$」をよく使うときは避けた方がよいです)
