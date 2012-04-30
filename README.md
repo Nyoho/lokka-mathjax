@@ -5,7 +5,7 @@ A MathJax plugin for Lokka.
 ## Installation
 
     $ cd LOKKA_ROOT/public/plugin
-    $ git clone git://github.com/nyoho/lokka-mathjax.git
+    $ git clone git@github.com:Nyoho/lokka-mathjax.git
 
 ## Usage
 
